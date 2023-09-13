@@ -1,0 +1,31 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css");
+@font-face {
+  font-family: "SEGA LOGO FONT";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SEGA LOGO FONT"), url("./fonts/SEGA.woff") format("woff");
+}
+.headline_logo {
+  font-family: "SEGA LOGO FONT", sans-serif;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: lighter;
+}
+.card {
+  margin: 6px !important;
+}
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background: linear-gradient(
+    90deg,
+    rgba(9, 121, 65, 0.8) 48%,
+    rgba(0, 255, 119, 0.8) 100%
+  );
+  padding-top: 8px;
+}
+
+.text-white {
+  color: #fff;
+}
